@@ -5,7 +5,7 @@ const divide = (arr, n) => {
 	n=Number(n);
 	let j=0;
 	let ans=[];
-	let temp=0;
+	let temp=[];
 	let sum=0;
 	while(j<arr.length){
 		if(arr[j]>n){
@@ -27,7 +27,7 @@ const divide = (arr, n) => {
 		sum=0;
 		
 	}
-	alert(ans);
+	// alert(ans);
 	return ans;
 };
 
